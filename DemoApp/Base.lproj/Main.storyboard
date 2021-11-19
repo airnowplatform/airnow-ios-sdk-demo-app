@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4BH-SH-8Bc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--AirMonetization Demo-->
+        <scene sceneID="awY-81-AWu">
+            <objects>
+                <viewController id="5Ql-zK-2IX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FYn-wf-gfz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dj3-c3-sKW" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="180" width="382" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1wO-hM-vpE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Direct Ads">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="B5W-d9-jVO" kind="push" id="u6l-M6-d5Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0X-FT-2rt" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="236" width="382" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="oEV-WA-ONy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="AdMob Adapters">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="goj-kW-zPD" kind="push" id="HgY-co-CCB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m57-V7-ya5" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="292" width="382" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="31p-HS-LeD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="MoPub Adapters">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="2WI-Ym-KKu" kind="push" id="Ryq-t2-QtZ"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirNowLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ytv-1j-r1z">
+                                <rect key="frame" x="114.5" y="104" width="185" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="4MC-nf-aKu"/>
+                                    <constraint firstAttribute="width" constant="185" id="HqE-XM-CkH"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZDX-Nv-gBU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZDX-Nv-gBU" firstAttribute="trailing" secondItem="Dj3-c3-sKW" secondAttribute="trailing" constant="16" id="7Ld-tN-e31"/>
+                            <constraint firstItem="Dj3-c3-sKW" firstAttribute="leading" secondItem="ZDX-Nv-gBU" secondAttribute="leading" constant="16" id="7b4-1j-7ce"/>
+                            <constraint firstItem="ytv-1j-r1z" firstAttribute="top" secondItem="ZDX-Nv-gBU" secondAttribute="top" constant="16" id="JaD-d0-bBu"/>
+                            <constraint firstItem="m57-V7-ya5" firstAttribute="top" secondItem="t0X-FT-2rt" secondAttribute="bottom" constant="16" id="QCf-0C-iTh"/>
+                            <constraint firstItem="ZDX-Nv-gBU" firstAttribute="trailing" secondItem="t0X-FT-2rt" secondAttribute="trailing" constant="16" id="WUs-3u-2Pz"/>
+                            <constraint firstItem="t0X-FT-2rt" firstAttribute="top" secondItem="Dj3-c3-sKW" secondAttribute="bottom" constant="16" id="cM1-ih-AKw"/>
+                            <constraint firstItem="m57-V7-ya5" firstAttribute="leading" secondItem="ZDX-Nv-gBU" secondAttribute="leading" constant="16" id="iXH-wJ-zAx"/>
+                            <constraint firstItem="t0X-FT-2rt" firstAttribute="leading" secondItem="ZDX-Nv-gBU" secondAttribute="leading" constant="16" id="n30-Pu-4jV"/>
+                            <constraint firstItem="Dj3-c3-sKW" firstAttribute="top" secondItem="ytv-1j-r1z" secondAttribute="bottom" constant="16" id="usm-5P-PAc"/>
+                            <constraint firstItem="ytv-1j-r1z" firstAttribute="centerX" secondItem="FYn-wf-gfz" secondAttribute="centerX" id="zZ0-cA-yTp"/>
+                            <constraint firstItem="ZDX-Nv-gBU" firstAttribute="trailing" secondItem="m57-V7-ya5" secondAttribute="trailing" constant="16" id="zn9-l6-UDd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="AirMonetization Demo" id="WkJ-AS-xAJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3sm-7j-epB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.623188405797109" y="683.70535714285711"/>
+        </scene>
+        <!--Direct Ads-->
+        <scene sceneID="Z2A-CJ-DDQ">
+            <objects>
+                <viewController id="B5W-d9-jVO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PZq-ni-yQC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKU-9Q-zh1" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="180" width="382" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="wWZ-0W-3s0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Banner">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="jqr-Tu-WR5" kind="push" id="BJ5-Dr-2ra"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32z-pG-Syp" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="236" width="382" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="a36-3R-2f7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Interstitial">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="UUR-yw-QAh" kind="push" id="1Yu-2G-DFq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLA-dx-LZi" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="292" width="382" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ALf-ap-Ggu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Rewarded">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="qbq-7s-d8z" kind="push" id="Yho-sT-LZs"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirNowLogo" translatesAutoresizingMaskIntoConstraints="NO" id="A8N-Pc-dUs">
+                                <rect key="frame" x="114.5" y="104" width="185" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="4Uf-8O-aX6"/>
+                                    <constraint firstAttribute="width" constant="185" id="ewH-m6-Obo"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UCu-16-xHC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="A8N-Pc-dUs" firstAttribute="top" secondItem="UCu-16-xHC" secondAttribute="top" constant="16" id="4C5-xJ-qvb"/>
+                            <constraint firstItem="UCu-16-xHC" firstAttribute="trailing" secondItem="VLA-dx-LZi" secondAttribute="trailing" constant="16" id="IfK-dV-dyd"/>
+                            <constraint firstItem="A8N-Pc-dUs" firstAttribute="centerX" secondItem="PZq-ni-yQC" secondAttribute="centerX" id="NcV-RA-d8m"/>
+                            <constraint firstItem="UCu-16-xHC" firstAttribute="trailing" secondItem="PKU-9Q-zh1" secondAttribute="trailing" constant="16" id="SKc-W4-WaK"/>
+                            <constraint firstItem="VLA-dx-LZi" firstAttribute="top" secondItem="32z-pG-Syp" secondAttribute="bottom" constant="16" id="TXA-RP-Uwt"/>
+                            <constraint firstItem="UCu-16-xHC" firstAttribute="trailing" secondItem="32z-pG-Syp" secondAttribute="trailing" constant="16" id="cN8-Ru-uXp"/>
+                            <constraint firstItem="PKU-9Q-zh1" firstAttribute="top" secondItem="A8N-Pc-dUs" secondAttribute="bottom" constant="16" id="cTW-Eb-Gzr"/>
+                            <constraint firstItem="VLA-dx-LZi" firstAttribute="leading" secondItem="UCu-16-xHC" secondAttribute="leading" constant="16" id="eyy-Lf-nqM"/>
+                            <constraint firstItem="32z-pG-Syp" firstAttribute="top" secondItem="PKU-9Q-zh1" secondAttribute="bottom" constant="16" id="hSM-z1-NZj"/>
+                            <constraint firstItem="32z-pG-Syp" firstAttribute="leading" secondItem="UCu-16-xHC" secondAttribute="leading" constant="16" id="nJf-6B-fjn"/>
+                            <constraint firstItem="PKU-9Q-zh1" firstAttribute="leading" secondItem="UCu-16-xHC" secondAttribute="leading" constant="16" id="qSw-fe-MjD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Direct Ads" id="wqd-3Z-o82"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="weX-aY-Ls4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="-43"/>
+        </scene>
+        <!--Direct Banner-->
+        <scene sceneID="Ac9-2u-iOZ">
+            <objects>
+                <viewController storyboardIdentifier="DirectBannersViewController" id="jqr-Tu-WR5" customClass="DirectBannersViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2BH-cB-PXI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7V-zu-er3" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="120.5" y="128" width="173" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ldR-9U-DRK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Load new Ad">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadAdAction:" destination="jqr-Tu-WR5" eventType="touchUpInside" id="ch6-k7-MpT"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o8S-p3-SjR">
+                                <rect key="frame" x="8" y="304" width="398" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="t5r-3v-HJa"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0z-fM-M9R" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="118.5" y="184" width="177" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qDm-1G-tJW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Inapp banner">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadInAppBannerAdAction:" destination="jqr-Tu-WR5" eventType="touchUpInside" id="VXz-Yl-1RC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Sv-fx-lcw" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="119" y="240" width="176" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="cQC-sI-5SQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Inline banner">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadInlineBannerAdAction:" destination="jqr-Tu-WR5" eventType="touchUpInside" id="osO-FD-jSZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xTa-c6-tPL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="r7V-zu-er3" firstAttribute="top" secondItem="xTa-c6-tPL" secondAttribute="top" constant="40" id="1WJ-6B-2HE"/>
+                            <constraint firstItem="o8S-p3-SjR" firstAttribute="top" secondItem="1Sv-fx-lcw" secondAttribute="bottom" constant="24" id="46K-k6-xxf"/>
+                            <constraint firstItem="R0z-fM-M9R" firstAttribute="centerX" secondItem="2BH-cB-PXI" secondAttribute="centerX" id="FtL-HG-zkd"/>
+                            <constraint firstItem="R0z-fM-M9R" firstAttribute="top" secondItem="r7V-zu-er3" secondAttribute="bottom" constant="16" id="bWM-uX-QAp"/>
+                            <constraint firstItem="1Sv-fx-lcw" firstAttribute="top" secondItem="R0z-fM-M9R" secondAttribute="bottom" constant="16" id="p0K-zt-bob"/>
+                            <constraint firstItem="1Sv-fx-lcw" firstAttribute="centerX" secondItem="2BH-cB-PXI" secondAttribute="centerX" id="rne-iz-ZTw"/>
+                            <constraint firstItem="xTa-c6-tPL" firstAttribute="trailing" secondItem="o8S-p3-SjR" secondAttribute="trailing" constant="8" id="utp-Rg-nRn"/>
+                            <constraint firstItem="o8S-p3-SjR" firstAttribute="leading" secondItem="xTa-c6-tPL" secondAttribute="leading" constant="8" id="uts-N7-40Q"/>
+                            <constraint firstItem="r7V-zu-er3" firstAttribute="centerX" secondItem="2BH-cB-PXI" secondAttribute="centerX" id="xuC-3C-oyQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Direct Banner" id="eko-1A-LJT"/>
+                    <connections>
+                        <outlet property="inAppBannerView" destination="o8S-p3-SjR" id="iRv-l2-3CL"/>
+                        <outlet property="inappBannerButton" destination="R0z-fM-M9R" id="FP3-Nz-hHb"/>
+                        <outlet property="inlineBannerButton" destination="1Sv-fx-lcw" id="tTN-xK-8yM"/>
+                        <outlet property="loadNewAdButton" destination="r7V-zu-er3" id="c1D-fn-3h5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bWG-RI-LJC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1678" y="-44"/>
+        </scene>
+        <!--Direct Interstitial-->
+        <scene sceneID="KtK-7L-eqw">
+            <objects>
+                <viewController storyboardIdentifier="DirectInterstitialViewController" id="UUR-yw-QAh" customClass="DirectInterstitialViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nZ8-GE-nD6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3q8-EL-9Iw" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="120.5" y="128" width="173" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xFy-6Q-kry"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Load new Ad">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadAdAction:" destination="UUR-yw-QAh" eventType="touchUpInside" id="ZL3-wS-A8E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BkJ-uT-1iD" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="129" y="184" width="156" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Wfr-ot-JyL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Interstitial">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadInterstitialAdAction:" destination="UUR-yw-QAh" eventType="touchUpInside" id="Nah-9T-UpV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Jg-az-GYx" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="107" y="240" width="200" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Lup-mF-5xP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Show Interstitial">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showInterstitialAd:" destination="UUR-yw-QAh" eventType="touchUpInside" id="HrT-xg-sAm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sUp-Zo-KB1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3q8-EL-9Iw" firstAttribute="top" secondItem="sUp-Zo-KB1" secondAttribute="top" constant="40" id="Jh9-rV-noZ"/>
+                            <constraint firstItem="8Jg-az-GYx" firstAttribute="centerX" secondItem="nZ8-GE-nD6" secondAttribute="centerX" id="NjI-Qp-m8e"/>
+                            <constraint firstItem="8Jg-az-GYx" firstAttribute="top" secondItem="BkJ-uT-1iD" secondAttribute="bottom" constant="16" id="Ulv-jx-WzG"/>
+                            <constraint firstItem="BkJ-uT-1iD" firstAttribute="top" secondItem="3q8-EL-9Iw" secondAttribute="bottom" constant="16" id="dmM-bG-nhp"/>
+                            <constraint firstItem="BkJ-uT-1iD" firstAttribute="centerX" secondItem="nZ8-GE-nD6" secondAttribute="centerX" id="pZE-ap-rYe"/>
+                            <constraint firstItem="3q8-EL-9Iw" firstAttribute="centerX" secondItem="nZ8-GE-nD6" secondAttribute="centerX" id="vd4-5P-NIY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Direct Interstitial" id="Xso-RG-nIo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ymd-wq-jxG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2407" y="-44"/>
+        </scene>
+        <!--Direct Rewarded-->
+        <scene sceneID="pC3-8P-g9W">
+            <objects>
+                <viewController storyboardIdentifier="DirectRewardedViewController" id="qbq-7s-d8z" customClass="DirectRewardedViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xgi-Sz-Hzh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9xN-iZ-dgu" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="120.5" y="128" width="173" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="rRP-9e-QxO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Load new Ad">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadAdAction:" destination="qbq-7s-d8z" eventType="touchUpInside" id="nkz-13-YKA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DO2-KX-ibM" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="130" y="184" width="154" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="A7T-15-qkF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Rewarded">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadRewardedAdAction:" destination="qbq-7s-d8z" eventType="touchUpInside" id="T1s-t5-ft3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dy-WD-oaE" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="108" y="240" width="198" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="RY7-t2-JD1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Show Rewarded">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showRewardedAd:" destination="qbq-7s-d8z" eventType="touchUpInside" id="Ah1-ou-U1J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zJZ-7A-dOA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9xN-iZ-dgu" firstAttribute="top" secondItem="zJZ-7A-dOA" secondAttribute="top" constant="40" id="MfK-8y-ydz"/>
+                            <constraint firstItem="9xN-iZ-dgu" firstAttribute="centerX" secondItem="xgi-Sz-Hzh" secondAttribute="centerX" id="TX3-nx-WPU"/>
+                            <constraint firstItem="DO2-KX-ibM" firstAttribute="centerX" secondItem="xgi-Sz-Hzh" secondAttribute="centerX" id="YCC-nC-mQi"/>
+                            <constraint firstItem="4dy-WD-oaE" firstAttribute="centerX" secondItem="xgi-Sz-Hzh" secondAttribute="centerX" id="cjS-RG-xtQ"/>
+                            <constraint firstItem="4dy-WD-oaE" firstAttribute="top" secondItem="DO2-KX-ibM" secondAttribute="bottom" constant="16" id="igE-jf-Zc6"/>
+                            <constraint firstItem="DO2-KX-ibM" firstAttribute="top" secondItem="9xN-iZ-dgu" secondAttribute="bottom" constant="16" id="kqi-g2-a0M"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Direct Rewarded" id="wVP-TS-NdL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J4E-Gm-Hlt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3142" y="-44"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nXc-ml-8FY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4BH-SH-8Bc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Tx-Rl-A47">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5Ql-zK-2IX" kind="relationship" relationship="rootViewController" id="4Qt-d2-X8Q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eVr-Ra-9Bf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-759" y="684"/>
+        </scene>
+        <!--MoPub Banner-->
+        <scene sceneID="9yC-wI-7n7">
+            <objects>
+                <viewController id="4tz-1n-NB2" customClass="MoPubBannerViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jsy-02-A3t">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBP-GV-xvX" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="121" y="128" width="172" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Nze-PC-cgG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Load Banner">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadBannerButtonTapped:" destination="4tz-1n-NB2" eventType="touchUpInside" id="btK-SK-tWg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iNJ-Jz-6si"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kBP-GV-xvX" firstAttribute="top" secondItem="iNJ-Jz-6si" secondAttribute="top" constant="40" id="16z-vF-H3q"/>
+                            <constraint firstItem="kBP-GV-xvX" firstAttribute="centerX" secondItem="Jsy-02-A3t" secondAttribute="centerX" id="vgN-4f-7hL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="MoPub Banner" id="smH-wp-tyK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="leZ-6c-qXL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1677" y="1408"/>
+        </scene>
+        <!--MoPub Interstitial-->
+        <scene sceneID="ddO-Bq-r6Z">
+            <objects>
+                <viewController id="JcG-7v-04J" customClass="MoPubInterstitialViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mA6-38-T9u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXK-HZ-Yk1" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="109.5" y="128" width="195" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="hCG-pa-j0M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Load Interstitial">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadInterstitialButtonTapped:" destination="JcG-7v-04J" eventType="touchUpInside" id="HN2-Ny-kCR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pfk-bM-GIK" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="107" y="184" width="200" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Cix-Gi-XaF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Show Interstitial">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showInterstitialButtonTapped:" destination="JcG-7v-04J" eventType="touchUpInside" id="6WE-xE-Vtu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mVK-4K-CoA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BXK-HZ-Yk1" firstAttribute="top" secondItem="mVK-4K-CoA" secondAttribute="top" constant="40" id="2wi-pX-eAi"/>
+                            <constraint firstItem="Pfk-bM-GIK" firstAttribute="top" secondItem="BXK-HZ-Yk1" secondAttribute="bottom" constant="16" id="6xM-Bk-il5"/>
+                            <constraint firstItem="Pfk-bM-GIK" firstAttribute="centerX" secondItem="mA6-38-T9u" secondAttribute="centerX" id="Hle-Yu-URy"/>
+                            <constraint firstItem="BXK-HZ-Yk1" firstAttribute="centerX" secondItem="mA6-38-T9u" secondAttribute="centerX" id="ypx-f9-Xte"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="MoPub Interstitial" id="5Vq-uP-E6f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PhI-HP-Fpd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2406" y="1408"/>
+        </scene>
+        <!--MoPub Rewarded-->
+        <scene sceneID="coV-ng-Yev">
+            <objects>
+                <viewController id="R6w-bd-Ldl" customClass="MoPubRewardedViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3zs-wy-OdE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBE-ZI-b3y" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="110.5" y="128" width="193" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="mqi-EB-K9z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Load Rewarded">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadRewardedButtonTapped:" destination="R6w-bd-Ldl" eventType="touchUpInside" id="PmY-EQ-e9F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bU1-fy-m2S" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="108" y="184" width="198" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="PD4-xd-Xmh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Show Rewarded">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showRewardedButtonTapped:" destination="R6w-bd-Ldl" eventType="touchUpInside" id="3n8-tZ-XlI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gVV-B2-9oV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sBE-ZI-b3y" firstAttribute="centerX" secondItem="3zs-wy-OdE" secondAttribute="centerX" id="AkE-V3-Lhc"/>
+                            <constraint firstItem="sBE-ZI-b3y" firstAttribute="top" secondItem="gVV-B2-9oV" secondAttribute="top" constant="40" id="MQt-UV-KBt"/>
+                            <constraint firstItem="bU1-fy-m2S" firstAttribute="top" secondItem="sBE-ZI-b3y" secondAttribute="bottom" constant="16" id="Ozm-NP-ljJ"/>
+                            <constraint firstItem="bU1-fy-m2S" firstAttribute="centerX" secondItem="3zs-wy-OdE" secondAttribute="centerX" id="zfx-aM-Hqg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="MoPub Rewarded" id="x6X-Ni-ben"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Rz-Om-Xuq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3141" y="1407"/>
+        </scene>
+        <!--AdMob Banner-->
+        <scene sceneID="JhK-qb-icV">
+            <objects>
+                <viewController id="X9Z-qY-JiH" customClass="AdMobBannerViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xCd-Jr-TBi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUc-FO-9I3" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="93.5" y="128" width="227" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8bw-9g-YmS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Load AdMob Banner">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadAdMobBannerButtonTapped:" destination="X9Z-qY-JiH" eventType="touchUpInside" id="8gF-0U-XeJ"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ier-hH-2vF">
+                                <rect key="frame" x="0.0" y="826" width="414" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="lD2-SD-jkf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="z1k-Wp-nRR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bUc-FO-9I3" firstAttribute="top" secondItem="z1k-Wp-nRR" secondAttribute="top" constant="40" id="DRD-lD-MiI"/>
+                            <constraint firstItem="ier-hH-2vF" firstAttribute="trailing" secondItem="xCd-Jr-TBi" secondAttribute="trailing" id="SnX-p7-Ssl"/>
+                            <constraint firstItem="bUc-FO-9I3" firstAttribute="centerX" secondItem="xCd-Jr-TBi" secondAttribute="centerX" id="TKl-yd-v9s"/>
+                            <constraint firstAttribute="bottom" secondItem="ier-hH-2vF" secondAttribute="bottom" id="uey-Kl-x6o"/>
+                            <constraint firstItem="ier-hH-2vF" firstAttribute="leading" secondItem="xCd-Jr-TBi" secondAttribute="leading" id="vXp-48-OuN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="AdMob Banner" id="F8Z-Xd-isD"/>
+                    <connections>
+                        <outlet property="adContainerView" destination="ier-hH-2vF" id="kHn-nd-3Za"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a5M-eB-4XJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1676.8115942028987" y="683.70535714285711"/>
+        </scene>
+        <!--AdMob Interstitial-->
+        <scene sceneID="IE1-0w-3rb">
+            <objects>
+                <viewController id="idT-FM-RLG" customClass="AdMobInterstitialViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RGi-em-UNA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFU-zE-bA8" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="109.5" y="128" width="195" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="uhg-vx-2tg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Load Interstitial">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadInterstitialButtonTapped:" destination="idT-FM-RLG" eventType="touchUpInside" id="qfv-Or-8No"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9FA-8Z-YnF" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="107" y="184" width="200" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gdb-Wl-YNU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Show Interstitial">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showInterstitialButtonTapped:" destination="idT-FM-RLG" eventType="touchUpInside" id="DZq-rE-E3n"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3vU-2j-jev"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9FA-8Z-YnF" firstAttribute="top" secondItem="yFU-zE-bA8" secondAttribute="bottom" constant="16" id="5pc-YW-jbR"/>
+                            <constraint firstItem="9FA-8Z-YnF" firstAttribute="centerX" secondItem="RGi-em-UNA" secondAttribute="centerX" id="LJV-n4-Nmo"/>
+                            <constraint firstItem="yFU-zE-bA8" firstAttribute="top" secondItem="3vU-2j-jev" secondAttribute="top" constant="40" id="Qgo-Wo-SHm"/>
+                            <constraint firstItem="yFU-zE-bA8" firstAttribute="centerX" secondItem="RGi-em-UNA" secondAttribute="centerX" id="qCD-3X-mm0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="AdMob Interstitial" id="CnU-rl-jID"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g8T-Ia-43A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2407" y="684"/>
+        </scene>
+        <!--AdMob Rewarded-->
+        <scene sceneID="GkW-KD-elh">
+            <objects>
+                <viewController id="mBn-Rn-dSv" customClass="AdMobRewardedViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KJP-5j-2ai">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hF2-m8-egu" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="113.5" y="128" width="187" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4v1-LZ-pXA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Load Rewaded">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadRewardedButtonTapped:" destination="mBn-Rn-dSv" eventType="touchUpInside" id="1HE-oo-AJr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSg-mc-PaC" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="108" y="184" width="198" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="kwD-22-MUg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Show Rewarded">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showRewardedButtonTapped:" destination="mBn-Rn-dSv" eventType="touchUpInside" id="w9Y-3F-Umo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MGG-4j-9cW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QSg-mc-PaC" firstAttribute="centerX" secondItem="KJP-5j-2ai" secondAttribute="centerX" id="J4u-ZK-5ws"/>
+                            <constraint firstItem="QSg-mc-PaC" firstAttribute="top" secondItem="hF2-m8-egu" secondAttribute="bottom" constant="16" id="OsK-eW-cRA"/>
+                            <constraint firstItem="hF2-m8-egu" firstAttribute="centerX" secondItem="KJP-5j-2ai" secondAttribute="centerX" id="Xvj-8v-QSB"/>
+                            <constraint firstItem="hF2-m8-egu" firstAttribute="top" secondItem="MGG-4j-9cW" secondAttribute="top" constant="40" id="iub-k5-Njg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="AdMob Rewarded" id="Cyn-ty-BXN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4oN-Vn-WA0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3142" y="684"/>
+        </scene>
+        <!--AdMob Adapters-->
+        <scene sceneID="gTO-oe-gX7">
+            <objects>
+                <viewController id="goj-kW-zPD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l1s-Sp-XiH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8w-bk-N1L" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="180" width="382" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7Im-lD-MHU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Banner">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="X9Z-qY-JiH" kind="push" id="CdT-Lq-D5D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHD-K4-8Da" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="236" width="382" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="fso-sQ-hmL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Interstitial">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="idT-FM-RLG" kind="push" id="AeE-2g-pIC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icq-Bx-K8v" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="292" width="382" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="K6l-Pz-THF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Rewarded">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="mBn-Rn-dSv" kind="push" id="m49-ZD-3sW"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirNowLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Rdb-Ry-q4O">
+                                <rect key="frame" x="114.5" y="104" width="185" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="cEu-kL-PZa"/>
+                                    <constraint firstAttribute="width" constant="185" id="m4l-eY-38N"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xts-c8-Hd7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PHD-K4-8Da" firstAttribute="top" secondItem="G8w-bk-N1L" secondAttribute="bottom" constant="16" id="IKd-2p-Lct"/>
+                            <constraint firstItem="icq-Bx-K8v" firstAttribute="top" secondItem="PHD-K4-8Da" secondAttribute="bottom" constant="16" id="Nal-e4-jPu"/>
+                            <constraint firstItem="icq-Bx-K8v" firstAttribute="leading" secondItem="xts-c8-Hd7" secondAttribute="leading" constant="16" id="OAq-pq-OUb"/>
+                            <constraint firstItem="Rdb-Ry-q4O" firstAttribute="centerX" secondItem="l1s-Sp-XiH" secondAttribute="centerX" id="OkO-vz-Tq1"/>
+                            <constraint firstItem="xts-c8-Hd7" firstAttribute="trailing" secondItem="icq-Bx-K8v" secondAttribute="trailing" constant="16" id="Omi-zt-ijS"/>
+                            <constraint firstItem="xts-c8-Hd7" firstAttribute="trailing" secondItem="G8w-bk-N1L" secondAttribute="trailing" constant="16" id="Ptd-cO-6b4"/>
+                            <constraint firstItem="PHD-K4-8Da" firstAttribute="leading" secondItem="xts-c8-Hd7" secondAttribute="leading" constant="16" id="TFD-en-fqV"/>
+                            <constraint firstItem="G8w-bk-N1L" firstAttribute="leading" secondItem="xts-c8-Hd7" secondAttribute="leading" constant="16" id="nqi-Jf-Wjt"/>
+                            <constraint firstItem="Rdb-Ry-q4O" firstAttribute="top" secondItem="xts-c8-Hd7" secondAttribute="top" constant="16" id="u5e-1c-doN"/>
+                            <constraint firstItem="xts-c8-Hd7" firstAttribute="trailing" secondItem="PHD-K4-8Da" secondAttribute="trailing" constant="16" id="y00-2A-SxC"/>
+                            <constraint firstItem="G8w-bk-N1L" firstAttribute="top" secondItem="Rdb-Ry-q4O" secondAttribute="bottom" constant="16" id="y7z-QS-Gsm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="AdMob Adapters" id="Ibr-Jz-Stc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HKK-HC-BRm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="684"/>
+        </scene>
+        <!--MoPub Adapters-->
+        <scene sceneID="D5j-uN-BcV">
+            <objects>
+                <viewController id="2WI-Ym-KKu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a8v-Vi-qAN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pup-yg-cUW" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="180" width="382" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="iGs-9e-m3l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Banner">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="4tz-1n-NB2" kind="push" id="11G-vp-sUh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opk-cD-50W" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="236" width="382" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="PkB-Ih-Od7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Interstitial">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="JcG-7v-04J" kind="push" id="rEo-Zr-aJm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ga-UD-iFf" customClass="ShadowButton" customModule="DemoApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="292" width="382" height="40"/>
+                                <color key="backgroundColor" red="0.41939452290000001" green="0.1362236738" blue="0.9856179357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="NCW-Vu-v7i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="16" maxX="40" maxY="16"/>
+                                <state key="normal" title="Rewarded">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="1" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="R6w-bd-Ldl" kind="push" id="hMk-0Z-1a1"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirNowLogo" translatesAutoresizingMaskIntoConstraints="NO" id="nzZ-GL-IgR">
+                                <rect key="frame" x="114.5" y="104" width="185" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="wau-GB-wfs"/>
+                                    <constraint firstAttribute="height" constant="60" id="zJF-8t-ZdM"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HKJ-mu-dSy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Pup-yg-cUW" firstAttribute="top" secondItem="nzZ-GL-IgR" secondAttribute="bottom" constant="16" id="2hI-3t-8yr"/>
+                            <constraint firstItem="HKJ-mu-dSy" firstAttribute="trailing" secondItem="8Ga-UD-iFf" secondAttribute="trailing" constant="16" id="6rk-pd-yRM"/>
+                            <constraint firstItem="Pup-yg-cUW" firstAttribute="leading" secondItem="HKJ-mu-dSy" secondAttribute="leading" constant="16" id="G7z-Vb-D6I"/>
+                            <constraint firstItem="8Ga-UD-iFf" firstAttribute="top" secondItem="opk-cD-50W" secondAttribute="bottom" constant="16" id="Rq6-4B-bBM"/>
+                            <constraint firstItem="opk-cD-50W" firstAttribute="top" secondItem="Pup-yg-cUW" secondAttribute="bottom" constant="16" id="SKL-PW-sNo"/>
+                            <constraint firstItem="8Ga-UD-iFf" firstAttribute="leading" secondItem="HKJ-mu-dSy" secondAttribute="leading" constant="16" id="Tbf-ej-Pt7"/>
+                            <constraint firstItem="HKJ-mu-dSy" firstAttribute="trailing" secondItem="opk-cD-50W" secondAttribute="trailing" constant="16" id="V7Y-Jd-ioH"/>
+                            <constraint firstItem="nzZ-GL-IgR" firstAttribute="top" secondItem="HKJ-mu-dSy" secondAttribute="top" constant="16" id="auk-Wz-eCW"/>
+                            <constraint firstItem="nzZ-GL-IgR" firstAttribute="centerX" secondItem="a8v-Vi-qAN" secondAttribute="centerX" id="cIh-BI-GXx"/>
+                            <constraint firstItem="HKJ-mu-dSy" firstAttribute="trailing" secondItem="Pup-yg-cUW" secondAttribute="trailing" constant="16" id="hFj-Ka-T1e"/>
+                            <constraint firstItem="opk-cD-50W" firstAttribute="leading" secondItem="HKJ-mu-dSy" secondAttribute="leading" constant="16" id="rKi-3A-ie8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="MoPub Adapters" id="iBP-Ce-5FK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H1E-Bf-jnw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="1407"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="1Sv-fx-lcw">
+            <size key="intrinsicContentSize" width="176" height="50"/>
+        </designable>
+        <designable name="32z-pG-Syp">
+            <size key="intrinsicContentSize" width="156" height="50"/>
+        </designable>
+        <designable name="3q8-EL-9Iw">
+            <size key="intrinsicContentSize" width="173" height="50"/>
+        </designable>
+        <designable name="4dy-WD-oaE">
+            <size key="intrinsicContentSize" width="198" height="50"/>
+        </designable>
+        <designable name="8Ga-UD-iFf">
+            <size key="intrinsicContentSize" width="154" height="50"/>
+        </designable>
+        <designable name="8Jg-az-GYx">
+            <size key="intrinsicContentSize" width="200" height="50"/>
+        </designable>
+        <designable name="9FA-8Z-YnF">
+            <size key="intrinsicContentSize" width="200" height="50"/>
+        </designable>
+        <designable name="9xN-iZ-dgu">
+            <size key="intrinsicContentSize" width="173" height="50"/>
+        </designable>
+        <designable name="BXK-HZ-Yk1">
+            <size key="intrinsicContentSize" width="195" height="50"/>
+        </designable>
+        <designable name="BkJ-uT-1iD">
+            <size key="intrinsicContentSize" width="156" height="50"/>
+        </designable>
+        <designable name="DO2-KX-ibM">
+            <size key="intrinsicContentSize" width="154" height="50"/>
+        </designable>
+        <designable name="Dj3-c3-sKW">
+            <size key="intrinsicContentSize" width="157" height="50"/>
+        </designable>
+        <designable name="G8w-bk-N1L">
+            <size key="intrinsicContentSize" width="133" height="50"/>
+        </designable>
+        <designable name="PHD-K4-8Da">
+            <size key="intrinsicContentSize" width="156" height="50"/>
+        </designable>
+        <designable name="PKU-9Q-zh1">
+            <size key="intrinsicContentSize" width="133" height="50"/>
+        </designable>
+        <designable name="Pfk-bM-GIK">
+            <size key="intrinsicContentSize" width="200" height="50"/>
+        </designable>
+        <designable name="Pup-yg-cUW">
+            <size key="intrinsicContentSize" width="133" height="50"/>
+        </designable>
+        <designable name="QSg-mc-PaC">
+            <size key="intrinsicContentSize" width="198" height="50"/>
+        </designable>
+        <designable name="R0z-fM-M9R">
+            <size key="intrinsicContentSize" width="177" height="50"/>
+        </designable>
+        <designable name="VLA-dx-LZi">
+            <size key="intrinsicContentSize" width="154" height="50"/>
+        </designable>
+        <designable name="bU1-fy-m2S">
+            <size key="intrinsicContentSize" width="198" height="50"/>
+        </designable>
+        <designable name="bUc-FO-9I3">
+            <size key="intrinsicContentSize" width="227" height="50"/>
+        </designable>
+        <designable name="hF2-m8-egu">
+            <size key="intrinsicContentSize" width="187" height="50"/>
+        </designable>
+        <designable name="icq-Bx-K8v">
+            <size key="intrinsicContentSize" width="154" height="50"/>
+        </designable>
+        <designable name="kBP-GV-xvX">
+            <size key="intrinsicContentSize" width="172" height="50"/>
+        </designable>
+        <designable name="m57-V7-ya5">
+            <size key="intrinsicContentSize" width="202" height="50"/>
+        </designable>
+        <designable name="opk-cD-50W">
+            <size key="intrinsicContentSize" width="156" height="50"/>
+        </designable>
+        <designable name="r7V-zu-er3">
+            <size key="intrinsicContentSize" width="173" height="50"/>
+        </designable>
+        <designable name="sBE-ZI-b3y">
+            <size key="intrinsicContentSize" width="193" height="50"/>
+        </designable>
+        <designable name="t0X-FT-2rt">
+            <size key="intrinsicContentSize" width="203" height="50"/>
+        </designable>
+        <designable name="yFU-zE-bA8">
+            <size key="intrinsicContentSize" width="195" height="50"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="AirNowLogo" width="165" height="42.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
