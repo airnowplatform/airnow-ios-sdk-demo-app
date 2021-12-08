@@ -14,6 +14,18 @@ extension AirMonetizationAdapterSettings: GADAdNetworkExtras {
         let adSettings = try AirMonetizationAdapterSettings.instance(from: dictionary ?? Dictionary())
         AirMonetization.shared.setAPIKey(key: adSettings.APIKey, appID: adSettings.appID)
         AirMonetization.shared.setTestMode(testMode: adSettings.testMode)
+        
+        if adSettings.APIKey.isEmpty || adSettings.appID.isEmpty {
+            if let apiKey = dictionary?["api_key"] as? String,
+               let appID = dictionary?["app_id"] as? String,
+               let testMode = dictionary?["test_mode"] as? Bool,
+               !apiKey.isEmpty,
+               !appID.isEmpty {
+                AirMonetization.shared.setAPIKey(key: apiKey, appID: appID)
+                AirMonetization.shared.setTestMode(testMode: testMode)
+            }
+        }
+        
         return adSettings
     }
 }
