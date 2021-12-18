@@ -46,7 +46,9 @@ import GoogleMobileAds
             currentBanner = nil
         }
         
-        currentBanner = AirMonetizationInappBanner.inappBanner(withBannerSize: CGSizeFromGADAdSize(adSize))
+        let bannerSize = AirMonetizationBannerSize(width: Int(adSize.size.width),
+                                                   height: Int(adSize.size.height))
+        currentBanner = AirMonetizationInappBanner.inappBanner(withBannerSize: bannerSize)
         
         if let placementName = airMonetizationSettings.placementName {
             currentBanner?.setPlacementName(placementName: placementName)

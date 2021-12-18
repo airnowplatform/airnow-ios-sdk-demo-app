@@ -99,7 +99,10 @@ public class MPAirMonetizationMopubBannerAdapter: MPInlineAdAdapter, MPThirdPart
             requestPlacementName = placement
         }
         
-        currentBannerAd = AirMonetizationInappBanner.inappBanner(withBannerSize: size)
+        let bannerSize = AirMonetizationBannerSize(width: Int(size.width),
+                                                   height: Int(size.height))
+        currentBannerAd = AirMonetizationInappBanner.inappBanner(withBannerSize: bannerSize)
+        
         if let requestPlacementName = requestPlacementName {
             currentBannerAd?.setPlacementName(placementName: requestPlacementName)
         }
