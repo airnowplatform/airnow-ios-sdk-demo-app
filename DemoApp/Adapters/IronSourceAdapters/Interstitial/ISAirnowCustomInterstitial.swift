@@ -91,6 +91,7 @@ public class ISAirnowCustomInterstitial: ISBaseAdAdapter, AirMonetizationAdDeleg
         print("[AirMonetization IronSource Adapter Interstitial] AirMonetizationAdDelegate: \(#function)")
         #endif
         adapterDelegate?.adDidClick()
+        adapterDelegate?.adDidClose()
     }
     
     public func adDidClose(ad: AirMotetizationAd) {

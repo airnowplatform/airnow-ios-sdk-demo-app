@@ -9,7 +9,7 @@ import Foundation
 
 struct ISAdapterConstants {
     
-    static let version = "1.0.0"
+    static let version = "1.0.1"
     static let networkName = "Airnow"
     
     struct ExtraKey {

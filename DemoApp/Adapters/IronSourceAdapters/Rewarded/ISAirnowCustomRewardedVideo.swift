@@ -98,6 +98,7 @@ public class ISAirnowCustomRewardedVideo: ISBaseAdAdapter, AirMonetizationReward
         #endif
         
         adapterDelegate?.adDidClick()
+        adapterDelegate?.adDidClose()
     }
     
     public func rewardedAdDidClose(ad: AirMotetizationAd) {

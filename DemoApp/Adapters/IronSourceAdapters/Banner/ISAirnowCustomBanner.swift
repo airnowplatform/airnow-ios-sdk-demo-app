@@ -92,6 +92,7 @@ public class ISAirnowCustomBanner: ISBaseAdAdapter, AirMonetizationAdDelegate {
         print("[AirMonetization IronSource Adapter Banner] AirMonetizationAdDelegate: \(#function)")
         #endif
         adapterDelegate?.adDidClick()
+        adapterDelegate?.adDidClose()
     }
     
     public func adDidClose(ad: AirMotetizationAd) {
