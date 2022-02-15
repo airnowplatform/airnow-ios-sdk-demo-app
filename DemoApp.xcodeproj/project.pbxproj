@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E3198502278C6ED80074D57E /* ISAirnowCustomAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31984F8278C6ED80074D57E /* ISAirnowCustomAdapter.swift */; };
-		E3198503278C6ED80074D57E /* ISAirnowCustomInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31984FA278C6ED80074D57E /* ISAirnowCustomInterstitial.swift */; };
-		E3198504278C6ED80074D57E /* ISAirMonetizationAdapterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31984FC278C6ED80074D57E /* ISAirMonetizationAdapterError.swift */; };
-		E3198505278C6ED80074D57E /* ISAdapterAirMonetizationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31984FD278C6ED80074D57E /* ISAdapterAirMonetizationConstants.swift */; };
-		E3198506278C6ED80074D57E /* ISAirnowCustomRewardedVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31984FF278C6ED80074D57E /* ISAirnowCustomRewardedVideo.swift */; };
-		E3198507278C6ED80074D57E /* ISAirnowCustomBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3198501278C6ED80074D57E /* ISAirnowCustomBanner.swift */; };
 		E32F582D2701D9DD0085AC14 /* DirectBannersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32F582C2701D9DD0085AC14 /* DirectBannersViewController.swift */; };
 		E32F582F2701DA5A0085AC14 /* AirMotetizationAd+uninstall.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32F582E2701DA5A0085AC14 /* AirMotetizationAd+uninstall.swift */; };
 		E32F58452701F4CB0085AC14 /* DirectInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32F58442701F4CB0085AC14 /* DirectInterstitialViewController.swift */; };
@@ -44,6 +38,11 @@
 		E3A414FA273AB3BA0051C4FD /* GADAdapterAirMonetizationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A414EB273AB3BA0051C4FD /* GADAdapterAirMonetizationConstants.swift */; };
 		E3A414FB273AB3BA0051C4FD /* GADAdapterAirMonetizationRewarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A414ED273AB3BA0051C4FD /* GADAdapterAirMonetizationRewarded.swift */; };
 		E3A414FC273AB3BA0051C4FD /* GADAdapterAirMonetizationInlineBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A414EF273AB3BA0051C4FD /* GADAdapterAirMonetizationInlineBanner.swift */; };
+		E3C74F2927BBB7AE0000893C /* ISAirnowCustomAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74F2227BBB7AE0000893C /* ISAirnowCustomAdapter.swift */; };
+		E3C74F2A27BBB7AE0000893C /* ISAirnowCustomInterstitial-v7-1-13.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74F2427BBB7AE0000893C /* ISAirnowCustomInterstitial-v7-1-13.swift */; };
+		E3C74F2B27BBB7AE0000893C /* ISAirnowCustomInterstitial-v7-2-0.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74F2527BBB7AE0000893C /* ISAirnowCustomInterstitial-v7-2-0.swift */; };
+		E3C74F2C27BBB7AE0000893C /* ISAirMonetizationAdapterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74F2727BBB7AE0000893C /* ISAirMonetizationAdapterError.swift */; };
+		E3C74F2D27BBB7AE0000893C /* ISAdapterAirMonetizationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74F2827BBB7AE0000893C /* ISAdapterAirMonetizationConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,12 +59,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E31984F8278C6ED80074D57E /* ISAirnowCustomAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAirnowCustomAdapter.swift; sourceTree = "<group>"; };
-		E31984FA278C6ED80074D57E /* ISAirnowCustomInterstitial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAirnowCustomInterstitial.swift; sourceTree = "<group>"; };
-		E31984FC278C6ED80074D57E /* ISAirMonetizationAdapterError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAirMonetizationAdapterError.swift; sourceTree = "<group>"; };
-		E31984FD278C6ED80074D57E /* ISAdapterAirMonetizationConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAdapterAirMonetizationConstants.swift; sourceTree = "<group>"; };
-		E31984FF278C6ED80074D57E /* ISAirnowCustomRewardedVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAirnowCustomRewardedVideo.swift; sourceTree = "<group>"; };
-		E3198501278C6ED80074D57E /* ISAirnowCustomBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAirnowCustomBanner.swift; sourceTree = "<group>"; };
 		E32F582C2701D9DD0085AC14 /* DirectBannersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectBannersViewController.swift; sourceTree = "<group>"; };
 		E32F582E2701DA5A0085AC14 /* AirMotetizationAd+uninstall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AirMotetizationAd+uninstall.swift"; sourceTree = "<group>"; };
 		E32F58442701F4CB0085AC14 /* DirectInterstitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectInterstitialViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +92,11 @@
 		E3A414EB273AB3BA0051C4FD /* GADAdapterAirMonetizationConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GADAdapterAirMonetizationConstants.swift; sourceTree = "<group>"; };
 		E3A414ED273AB3BA0051C4FD /* GADAdapterAirMonetizationRewarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GADAdapterAirMonetizationRewarded.swift; sourceTree = "<group>"; };
 		E3A414EF273AB3BA0051C4FD /* GADAdapterAirMonetizationInlineBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GADAdapterAirMonetizationInlineBanner.swift; sourceTree = "<group>"; };
+		E3C74F2227BBB7AE0000893C /* ISAirnowCustomAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAirnowCustomAdapter.swift; sourceTree = "<group>"; };
+		E3C74F2427BBB7AE0000893C /* ISAirnowCustomInterstitial-v7-1-13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ISAirnowCustomInterstitial-v7-1-13.swift"; sourceTree = "<group>"; };
+		E3C74F2527BBB7AE0000893C /* ISAirnowCustomInterstitial-v7-2-0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ISAirnowCustomInterstitial-v7-2-0.swift"; sourceTree = "<group>"; };
+		E3C74F2727BBB7AE0000893C /* ISAirMonetizationAdapterError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAirMonetizationAdapterError.swift; sourceTree = "<group>"; };
+		E3C74F2827BBB7AE0000893C /* ISAdapterAirMonetizationConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAdapterAirMonetizationConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,59 +115,6 @@
 			children = (
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		E31984F6278C6ED80074D57E /* IronSourceAdapters */ = {
-			isa = PBXGroup;
-			children = (
-				E31984F7278C6ED80074D57E /* Configuration */,
-				E31984F9278C6ED80074D57E /* Interstitial */,
-				E31984FB278C6ED80074D57E /* Common */,
-				E31984FE278C6ED80074D57E /* Rewarded */,
-				E3198500278C6ED80074D57E /* Banner */,
-			);
-			path = IronSourceAdapters;
-			sourceTree = "<group>";
-		};
-		E31984F7278C6ED80074D57E /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				E31984F8278C6ED80074D57E /* ISAirnowCustomAdapter.swift */,
-			);
-			path = Configuration;
-			sourceTree = "<group>";
-		};
-		E31984F9278C6ED80074D57E /* Interstitial */ = {
-			isa = PBXGroup;
-			children = (
-				E31984FA278C6ED80074D57E /* ISAirnowCustomInterstitial.swift */,
-			);
-			path = Interstitial;
-			sourceTree = "<group>";
-		};
-		E31984FB278C6ED80074D57E /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				E31984FC278C6ED80074D57E /* ISAirMonetizationAdapterError.swift */,
-				E31984FD278C6ED80074D57E /* ISAdapterAirMonetizationConstants.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		E31984FE278C6ED80074D57E /* Rewarded */ = {
-			isa = PBXGroup;
-			children = (
-				E31984FF278C6ED80074D57E /* ISAirnowCustomRewardedVideo.swift */,
-			);
-			path = Rewarded;
-			sourceTree = "<group>";
-		};
-		E3198500278C6ED80074D57E /* Banner */ = {
-			isa = PBXGroup;
-			children = (
-				E3198501278C6ED80074D57E /* ISAirnowCustomBanner.swift */,
-			);
-			path = Banner;
 			sourceTree = "<group>";
 		};
 		E32F582B2701D9C70085AC14 /* DirectAds */ = {
@@ -213,7 +158,7 @@
 		E39813A527021F060050C45E /* Adapters */ = {
 			isa = PBXGroup;
 			children = (
-				E31984F6278C6ED80074D57E /* IronSourceAdapters */,
+				E3C74F2027BBB7AE0000893C /* IronSourceAdapters */,
 				E3A414E5273AB3BA0051C4FD /* AdMobAdapters */,
 				E3A414D8273AB3BA0051C4FD /* MoPubAdapters */,
 			);
@@ -389,6 +334,42 @@
 			path = Banner;
 			sourceTree = "<group>";
 		};
+		E3C74F2027BBB7AE0000893C /* IronSourceAdapters */ = {
+			isa = PBXGroup;
+			children = (
+				E3C74F2127BBB7AE0000893C /* Configuration */,
+				E3C74F2327BBB7AE0000893C /* Interstitial */,
+				E3C74F2627BBB7AE0000893C /* Common */,
+			);
+			path = IronSourceAdapters;
+			sourceTree = "<group>";
+		};
+		E3C74F2127BBB7AE0000893C /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E3C74F2227BBB7AE0000893C /* ISAirnowCustomAdapter.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E3C74F2327BBB7AE0000893C /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				E3C74F2427BBB7AE0000893C /* ISAirnowCustomInterstitial-v7-1-13.swift */,
+				E3C74F2527BBB7AE0000893C /* ISAirnowCustomInterstitial-v7-2-0.swift */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		E3C74F2627BBB7AE0000893C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E3C74F2727BBB7AE0000893C /* ISAirMonetizationAdapterError.swift */,
+				E3C74F2827BBB7AE0000893C /* ISAdapterAirMonetizationConstants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -473,26 +454,25 @@
 				E39C713C2660EBE600924499 /* UIViewController+ActivityIndicator.swift in Sources */,
 				E32F58472701F72A0085AC14 /* DirectRewardedViewController.swift in Sources */,
 				E3324D942702FCB1001DF92C /* MoPubInterstitialViewController.swift in Sources */,
-				E3198506278C6ED80074D57E /* ISAirnowCustomRewardedVideo.swift in Sources */,
 				E3324D962702FCC5001DF92C /* MoPubRewardedViewController.swift in Sources */,
 				E3A414FB273AB3BA0051C4FD /* GADAdapterAirMonetizationRewarded.swift in Sources */,
+				E3C74F2A27BBB7AE0000893C /* ISAirnowCustomInterstitial-v7-1-13.swift in Sources */,
 				E3A414F0273AB3BA0051C4FD /* MPAirMonetizationAdapterConfiguration.swift in Sources */,
 				E3324D902702FA40001DF92C /* AdMobRewardedViewController.swift in Sources */,
-				E3198502278C6ED80074D57E /* ISAirnowCustomAdapter.swift in Sources */,
+				E3C74F2C27BBB7AE0000893C /* ISAirMonetizationAdapterError.swift in Sources */,
+				E3C74F2927BBB7AE0000893C /* ISAirnowCustomAdapter.swift in Sources */,
+				E3C74F2B27BBB7AE0000893C /* ISAirnowCustomInterstitial-v7-2-0.swift in Sources */,
 				E3A414F4273AB3BA0051C4FD /* MPAirMonetizationMoPubAdapterInfo.swift in Sources */,
 				E39C713B2660EBE600924499 /* UIViewController+Alerts.swift in Sources */,
 				E3324D8C2702F9E5001DF92C /* AdMobBannerViewController.swift in Sources */,
 				E3A414F7273AB3BA0051C4FD /* GADAdapterAirMonetizationInterstitial.swift in Sources */,
+				E3C74F2D27BBB7AE0000893C /* ISAdapterAirMonetizationConstants.swift in Sources */,
 				E3324D922702FC7A001DF92C /* MoPubBannerViewController.swift in Sources */,
-				E3198507278C6ED80074D57E /* ISAirnowCustomBanner.swift in Sources */,
 				E3324DA227033253001DF92C /* AdaptersAdUnits.swift in Sources */,
-				E3198504278C6ED80074D57E /* ISAirMonetizationAdapterError.swift in Sources */,
-				E3198505278C6ED80074D57E /* ISAdapterAirMonetizationConstants.swift in Sources */,
 				E32F58452701F4CB0085AC14 /* DirectInterstitialViewController.swift in Sources */,
 				E3A414FA273AB3BA0051C4FD /* GADAdapterAirMonetizationConstants.swift in Sources */,
 				E3A414F1273AB3BA0051C4FD /* MPAirMonetizationMoPubInterstitialAdapter.swift in Sources */,
 				E3A414F9273AB3BA0051C4FD /* AirMonetizationAdapterExtras-extension.swift in Sources */,
-				E3198503278C6ED80074D57E /* ISAirnowCustomInterstitial.swift in Sources */,
 				E3A414F2273AB3BA0051C4FD /* MPAirMonetizationMoPubAdapterError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
